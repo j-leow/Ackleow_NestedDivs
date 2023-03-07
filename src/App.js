@@ -14,5 +14,7 @@ export default function App() {
         </div>
       </div>
     </div>
+   // unsure why but the changes will not show in the preview tab on Codesandbox.io
+   // The HTML will show up correctly when clicking to open the browser in a new window
   );
 }
