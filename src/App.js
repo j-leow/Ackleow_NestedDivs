@@ -3,8 +3,16 @@ import "./styles.css";
 export default function App() {
   return (
     <div className="App">
-      <h1>Hello CodeSandbox</h1>
-      <h2>Start editing to see some magic happen!</h2>
+      {/* //Create an outer div to encapsulate 4 divs. The fourth div will have
+      another div nested within it. */}
+      <div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div>
+          <div></div>
+        </div>
+      </div>
     </div>
   );
 }
